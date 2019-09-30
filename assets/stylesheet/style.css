@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*css rest ends*/
+/*my CSS*/
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.wrapper {
+	max-width: 1500px;
+	margin: 0px auto;
+}
+.flex {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+.header {
+	padding-bottom: 5rem;
+}
+.nav a {
+	padding: 1.5rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: #686868;
+}
+#signup {
+	border:.10rem solid rgba(104,104,104,0.2);
+	padding: .9rem 1.5rem;
+	color: #616161;
+	font-weight: bolder;
+	margin-left: 1.5rem;
+	border-radius: .2rem;
+}
+.heading-1 {
+	color: #616161;
+	font-size: 1.8rem;
+	font-weight: bolder;
+	padding-top: 5rem;
+}
+.para-1 {
+	color: #686868;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	padding-top: 2rem;
+}
+.section {
+	padding:8rem 0px;
+}
+.section-1 {
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../../assets/media/mountain.JPG);
+	color: white;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.heading-2 {
+	font-size: 3rem;
+	line-height: 1.2;	
+}
+.para-2 {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	line-height: 1.5;	
+}
+.hr {
+	border:.02rem solid rgba(104,104,104,0.2);
+	margin:2.2rem auto;
+}
+.hr-1 {
+	width:8rem;
+	border:.02rem solid white;
+
+}
+.btn {
+	font-size: 1.1rem;
+	padding: .9rem 1.6rem;
+	font-weight: bold;
+	border-radius: .2rem;
+	border:none;
+	margin-top: 2.3rem;
+}
+.btn-1 {
+	background-color: #65B57F;
+	color: white;
+	border:.1rem solid #65B57F;
+}
+.heading-3 {
+	color: #616161;
+	font-size: 1.8rem;
+	font-weight: bolder;
+}
+.para-3 {
+	color: #686868;
+	padding-top:1rem;
+}
+.hr-2 {
+	width:5rem;
+	border:.03rem solid black;
+	margin:2.2rem 0rem;
+}
+.para-4 {
+	color: #686868;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.btn-2 {
+	background-color: white;
+	color: #616161;
+	border:.10rem solid rgba(104,104,104,0.2);
+}
+.img-1 {
+	border-radius: 50%;
+	padding:2rem;
+	height:25rem;
+}
+.item-1{
+	margin-right: 3rem;
+}
+.flex-2 {
+	flex-direction: row-reverse;
+}
+.item-1-1 {
+	margin-left: 3rem;
+	margin-right: 0rem;
+}
+.hr-3 {
+	border:.04rem solid rgba(104,104,104,0.2);
+}
+.flex-3 {
+	flex-direction: column;
+}
+.btn-3 {
+	margin-top: 4rem;
+}
+.fab {
+	color: #616161;
+}
+.section-4 {
+	text-align: center;
+}
+.box {
+	width: 20%;
+	padding: 2rem;
+}
+.img-2 {
+	width: 20%;
+}
+.heading-4 {
+	padding:2rem 0;
+	color: #616161;
+	font-size: 1.7rem;
+}
+.para-5 {
+	line-height: 1.5;
+	color: #ADADAD;
+}
+.section-5 {
+	background-color: #292929;
+}
+.box-2 {
+	width: 30%;
+	padding: 0 2em 4em 0;
+}
+.heading-5 {
+	color: white;
+	font-size: 1.5rem;
+}
+.para-6 {
+	color: #A3A3A3;
+	line-height: 1.5;
+	font-size: 1.3rem;
+}
+.btn-4 {
+	background-color: #292929;
+	color: white;
+}
+.flex-center {
+	justify-content: space-around;
+}
+.para-8 {
+	line-height: 2;
+	color: #A3A3A3;
+	font-size: 1.5rem;
+}
+.para-7 {
+	color: #515151; 
+}
+#i-1 {
+	margin-right: 2rem;
+	font-size: 1.2rem;
+	color: white;
+}
+footer {
+	text-align: center;
+	background-color: #292929;
+	padding-bottom:4rem;
+	color: #515151; 
+}
+@media all and (max-width:768px) {
+html {
+	font-size: 8px;
+}
+.wrapper {
+	margin:0px 30px;
+}
+.img-1 {
+	height:10rem;
+}
+.box {
+	width: 45%;
+	margin: 5px;
+	padding: 0;
+}
+.flex-4 {
+	justify-content: space-between;
+}
+}
